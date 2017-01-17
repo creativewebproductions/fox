@@ -1,4 +1,16 @@
-#EXTM3U
-#EXTINF:-1,Fox News
-http://167.114.102.27/live/aH9VeZaF-1tUn6iwO8-xcg/1484624593/877e1fd192b3a58577e4387971c215a7.m3u8
-#EXTINF:-1,Fox News 2
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>http://167.114.102.27/live/aH9VeZaF-1tUn6iwO8-xcg/1484624593/877e1fd192b3a58577e4387971c215a7.m3u8</location>
+			<title>Fox News</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+	</extension>
+</playlist>
